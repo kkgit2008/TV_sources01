@@ -1,10 +1,10 @@
-name: Python application
-on:
+#name: Python application
+#on:
   push:
   schedule:
     - cron: '0 21 * * *'
 
-jobs:
+#jobs:
   build:
     runs-on: ubuntu-latest
 
